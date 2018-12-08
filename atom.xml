@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>墨菲</title>
+  
+  <subtitle>一个程序猿的日常</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-12-08T03:44:16.261Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>kissfree</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/12/08/hello-world/"/>
+    <id>http://yoursite.com/2018/12/08/hello-world/</id>
+    <published>2018-12-08T03:44:16.261Z</published>
+    <updated>2018-12-08T03:44:16.261Z</updated>
+    
+    <summary type="html">
+    
+      这是hello word
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大明湖</title>
+    <link href="http://yoursite.com/2018/12/07/%E5%A4%A7%E6%98%8E%E6%B9%96/"/>
+    <id>http://yoursite.com/2018/12/07/大明湖/</id>
+    <published>2018-12-07T04:14:21.000Z</published>
+    <updated>2018-12-07T12:38:46.147Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大明湖，明湖大，大明湖上有荷花&lt;br&gt;
+    
+    </summary>
+    
+      <category term="文章" scheme="http://yoursite.com/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="诗" scheme="http://yoursite.com/tags/%E8%AF%97/"/>
+    
+      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+</feed>
