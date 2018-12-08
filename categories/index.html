@@ -108,18 +108,18 @@
 
 
 
-  <meta name="description" content="记录一些工作中遇到的问题">
+  <meta name="description" content="“有趣的灵魂”成了热门词。我要求比较低，觉得灵魂安静就好，做不到有趣也无所谓。最最怕的是无趣又闹腾。">
 <meta name="keywords" content="前端 后端 数据库 服务器">
 <meta property="og:type" content="website">
 <meta property="og:title" content="分类">
 <meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="墨菲">
-<meta property="og:description" content="记录一些工作中遇到的问题">
+<meta property="og:description" content="“有趣的灵魂”成了热门词。我要求比较低，觉得灵魂安静就好，做不到有趣也无所谓。最最怕的是无趣又闹腾。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2018-12-07T14:36:02.215Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="分类">
-<meta name="twitter:description" content="记录一些工作中遇到的问题">
+<meta name="twitter:description" content="“有趣的灵魂”成了热门词。我要求比较低，觉得灵魂安静就好，做不到有趣也无所谓。最最怕的是无趣又闹腾。">
 
 
 
@@ -426,14 +426,10 @@
                     
                   
                 
-                  
-                    
-                  
-                
-                目前共计 2 个分类
+                目前共计 1 个分类
             </div>
             <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/文章/">文章</a><span class="category-list-count">1</span></li></ul>
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a><span class="category-list-count">3</span></li></ul>
             </div>
           </div>
         
@@ -454,6 +450,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -486,7 +486,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="kissfree">
             
               <p class="site-author-name" itemprop="name">kissfree</p>
-              <p class="site-description motion-element" itemprop="description">记录一些工作中遇到的问题</p>
+              <p class="site-description motion-element" itemprop="description">“有趣的灵魂”成了热门词。我要求比较低，觉得灵魂安静就好，做不到有趣也无所谓。最最怕的是无趣又闹腾。</p>
           </div>
 
           
@@ -496,7 +496,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -511,9 +511,7 @@
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">1</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -530,9 +528,7 @@
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -731,6 +727,31 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'btNJTts84p5gWYHxdwsE1DQH-gzGzoHsz',
+        appKey: 'hOd4ke7wj7nkmP0hG7rb3LUf',
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
 
 
 

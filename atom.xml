@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-08T03:44:16.261Z</updated>
+  <updated>2018-12-08T07:08:22.966Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,44 +17,89 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/12/08/hello-world/"/>
-    <id>http://yoursite.com/2018/12/08/hello-world/</id>
-    <published>2018-12-08T03:44:16.261Z</published>
-    <updated>2018-12-08T03:44:16.261Z</updated>
+    <title>hexo博客系列 添加评论系统-Valine</title>
+    <link href="http://yoursite.com/2018/12/08/hexo%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97-%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F-Valine/"/>
+    <id>http://yoursite.com/2018/12/08/hexo博客系列-添加评论系统-Valine/</id>
+    <published>2018-12-08T07:06:49.000Z</published>
+    <updated>2018-12-08T07:08:22.966Z</updated>
     
     <summary type="html">
     
-      这是hello word
+      &lt;h2 id=&quot;注册Leancloud&quot;&gt;&lt;a href=&quot;#注册Leancloud&quot; class=&quot;headerlink&quot; title=&quot;注册Leancloud&quot;&gt;&lt;/a&gt;注册Leancloud&lt;/h2&gt;&lt;p&gt;我们的评论系统其实是放在Leancloud上的，因此首先需要去注册一个账号&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://leancloud.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Leancloud官网，点我注册&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注册完以后需要创建一个应用，名字可以随便起，然后 进入应用-&amp;gt;设置-&amp;gt;应用key&lt;/p&gt;
     
     </summary>
     
-      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
-    <title>大明湖</title>
-    <link href="http://yoursite.com/2018/12/07/%E5%A4%A7%E6%98%8E%E6%B9%96/"/>
-    <id>http://yoursite.com/2018/12/07/大明湖/</id>
-    <published>2018-12-07T04:14:21.000Z</published>
-    <updated>2018-12-07T12:38:46.147Z</updated>
+    <title>hexo博客系列 next主题详细配置</title>
+    <link href="http://yoursite.com/2018/12/08/hexo%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97-next%E4%B8%BB%E9%A2%98%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/12/08/hexo博客系列-next主题详细配置/</id>
+    <published>2018-12-08T05:10:30.000Z</published>
+    <updated>2018-12-08T05:16:24.456Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;大明湖，明湖大，大明湖上有荷花&lt;br&gt;
+      &lt;p&gt;在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;站点配置文件：位于站点根目录下，主要包含 Hexo本身的配置&lt;/li&gt;
+&lt;li&gt;主题配置文件：位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;修改语言&quot;&gt;&lt;a href=&quot;#修改语言&quot; class=&quot;headerlink&quot; title=&quot;修改语言&quot;&gt;&lt;/a&gt;修改语言&lt;/h2&gt;&lt;p&gt;next主题的所有语言配置文件都在\themes\next\languages文件夹下&lt;/p&gt;
+&lt;p&gt;要想改为中文，设置站点配置文件&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;language: zh-CN&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：这里要和语言文件名对应&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
-      <category term="文章" scheme="http://yoursite.com/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="诗" scheme="http://yoursite.com/tags/%E8%AF%97/"/>
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客系列 搭建属于自己的博客</title>
+    <link href="http://yoursite.com/2018/12/08/hexo%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97-%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2018/12/08/hexo博客系列-搭建属于自己的博客/</id>
+    <published>2018-12-08T04:36:45.000Z</published>
+    <updated>2018-12-08T05:16:08.504Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;安装Node.js&lt;/li&gt;
+&lt;li&gt;安装Git&lt;/li&gt;
+&lt;li&gt;GitHub账号并且配置了SSH Keys，创建一个名为username.github.io的仓库&lt;blockquote&gt;
+&lt;p&gt;username 改为自己的github名字&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;h3 id=&quot;安装hexo-1&quot;&gt;&lt;a href=&quot;#安装hexo-1&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;hexo 官网地址&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;➜  ~ sudo npm install hexo-cli -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;➜  www hexo init hexo_blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;➜  www cd hexo_blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;➜  hexo_blog npm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
